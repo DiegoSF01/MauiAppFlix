@@ -63,12 +63,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Categoria\ficcao.xaml.cs">
-	    <DependentUpon>ficcao.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Categoria\acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

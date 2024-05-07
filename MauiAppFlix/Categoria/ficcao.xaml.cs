@@ -1,8 +1,8 @@
 namespace MauiAppFlix.Categoria;
 
-public partial class fiquicao : ContentPage
+public partial class ficcao : ContentPage
 {
-	public fiquicao()
+	public ficcao()
 	{
 		InitializeComponent();
 	}
