@@ -6,4 +6,9 @@ public partial class acao : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnjurassic_park_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

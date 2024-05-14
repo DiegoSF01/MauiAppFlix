@@ -26,4 +26,44 @@ public partial class Menu : ContentPage
     {
 
     }
+
+    private void documentario_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void drama_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void ficcao_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void guerra_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void infantil_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void nacional_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void romance_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void suspense_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }
