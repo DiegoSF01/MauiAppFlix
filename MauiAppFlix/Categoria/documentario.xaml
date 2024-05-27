@@ -25,7 +25,7 @@
                   ColumnSpacing="2">
 
                 <ImageButton Aspect="AspectFill" Grid.Row="0" Grid.Column="0" x:Name="btncomo_ser_warren_buffet"
-                             Style="{StaticResource btnfilme}" Source="como_ser_warren_buffet.jpg"
+                             Style="{StaticResource btnfilme}" Source="como_ser_warren_buffett.jpg"
                              Clicked="btncomo_ser_warren_buffet_Clicked"/>
 
                 <ImageButton Aspect="AspectFill" Grid.Row="1" Grid.Column="0" x:Name="btnisabella"
