@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppFlix.Filmes.acao.velozes_e_furiosos"
-             Title="velozes_e_furiosos"
+             x:Class="MauiAppFlix.Filmes.animacao.rio"
+             Title="rio"
              BackgroundColor="Black">
 
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
@@ -12,27 +12,27 @@
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                       Source="velozes_e_furiosos.jpg" Aspect="AspectFit" HeightRequest="300" />
+                       Source="rio.jpg" Aspect="AspectFit" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" TextColor="White"/>
 
-                    <Label Text="28 de setembro de 2001"
+                    <Label Text="8 de abril de 2011"
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text="Rob Cohen" 
+                    <Label Text="Carlos Saldanha" 
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
                 </StackLayout>
-                <StackLayout Grid.Column="0" Grid.Row="1" 
+                <StackLayout Grid.Column="0" Grid.Row="1"
                              Grid.ColumnSpan="2">
 
                     <Label Text="Sinopse" 
                            FontSize="Medium" Style="{StaticResource titulo}" TextColor="White"/>
 
-                    <Label x:Name="sinopse" Text="Brian O'Conner é um policial que se infiltra no submundo dos rachas de rua para investigar uma série de furtos. Enquanto tenta ganhar o respeito e a confiança do líder Dom Toretto, ele corre o risco de ser desmascarado."
+                    <Label x:Name="sinopse" Text="Capturada por contrabandistas de animais quando tinha acabado de nascer, a arara Blu nunca aprendeu a voar e vive uma vida domesticada feliz em Minnesota, nos Estados Unidos, com sua dona, Linda. Blu pensa que é a última arara de sua espécie. Mas quando descobrem que Jewel, uma fêmea, vive no Rio de Janeiro, Blu e Linda vão ao seu encontro. Os contrabandistas capturam Blu e Jewel, mas as aves escapam e começam uma aventura arriscada rumo à liberdade."
                            FontSize="Micro" Padding="5" TextColor="White"/>
 
                 </StackLayout>
