@@ -1,8 +1,8 @@
 namespace MauiAppFlix.Filmes.guerra;
 
-public partial class _300 : ContentPage
+public partial class esparta : ContentPage
 {
-	public _300()
+	public esparta()
 	{
 		InitializeComponent();
 	}
