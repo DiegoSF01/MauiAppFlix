@@ -57,6 +57,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Filmes\NovaPasta\**" />
+	  <Compile Remove="Filmes\NovaPasta\**" />
+	  <EmbeddedResource Remove="Filmes\NovaPasta\**" />
+	  <MauiCss Remove="Filmes\NovaPasta\**" />
+	  <MauiXaml Remove="Filmes\NovaPasta\**" />
+	  <None Remove="Filmes\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Filmes\documentario\jogada_de_rei.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Filmes\documentario\jogada_de_rei.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\as_branquelas.jpg" />
 	  <None Remove="Resources\Images\ate_o_ultimo_homem.jpg" />
 	  <None Remove="Resources\Images\clube_da_luta.jpg" />
@@ -172,9 +189,64 @@
 	  <MauiXaml Update="Filmes\comedia\todo_mundo_em_panico.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\como_ser_warren_buffett.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\isabella.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\senna.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\documentario\steve_jobs.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\drama\extraordinario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\drama\jogada_de_rei.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\drama\maos_talentosas.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\drama\o_menino_que_descobriu_o_vento.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\ficcao\godzilla.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\ficcao\homem_de_ferro.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\ficcao\o_poderoso_chefao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\ficcao\planeta_dos_macacos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\guerra\300.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\guerra\ate_o_ultimo_homem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\guerra\rambo_3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Filmes\guerra\sniper_americano.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Menu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Filmes\infantil\" />
+	  <Folder Include="Filmes\nacional\" />
+	  <Folder Include="Filmes\suspense\" />
+	  <Folder Include="Filmes\romance\" />
 	</ItemGroup>
 
 </Project>
