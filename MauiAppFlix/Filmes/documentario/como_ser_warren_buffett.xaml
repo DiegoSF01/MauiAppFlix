@@ -17,12 +17,12 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text=""
+                    <Label Text="30 de janeiro de 2017"
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text="" 
+                    <Label Text="Peter Kunhardt, Brian Oakes" 
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
@@ -30,7 +30,7 @@
 
                     <Label Text="Sinopse" 
                            FontSize="Medium" Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label x:Name="sinopse" Text=""
+                    <Label x:Name="sinopse" Text="Becoming Warren Buffett é um documentário de 2017 sobre Warren Buffett e sua vida. O filme foi feito para a HBO"
                            FontSize="Micro" Padding="5" TextColor="White"/>
 
                 </StackLayout>

@@ -17,12 +17,12 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text=""
+                    <Label Text="17 de agosto de 2023"
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text="" 
+                    <Label Text="Micael Langer, Cláudio Manoel" 
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
@@ -30,7 +30,7 @@
 
                     <Label Text="Sinopse" 
                            FontSize="Medium" Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label x:Name="sinopse" Text=""
+                    <Label x:Name="sinopse" Text="Uma menina de cinco anos é atirada pela janela do apartamento do pai. A mãe embarca em uma missão em busca de justiça, e todo o Brasil acompanha o caso."
                            FontSize="Micro" Padding="5" TextColor="White"/>
 
                 </StackLayout>

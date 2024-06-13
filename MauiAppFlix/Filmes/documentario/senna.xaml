@@ -17,12 +17,12 @@
                              Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text=""
+                    <Label Text="12 de novembro de 2010"
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                            Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label Text="" 
+                    <Label Text="Asif Kapadia" 
                            Style="{StaticResource textoTitulo}" TextColor="White"/>
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1"
@@ -30,7 +30,7 @@
 
                     <Label Text="Sinopse" 
                            FontSize="Medium" Style="{StaticResource titulo}" TextColor="White"/>
-                    <Label x:Name="sinopse" Text=""
+                    <Label x:Name="sinopse" Text="Um documentário sobre o maior piloto brasileiro de Fórmula 1, Ayrton Senna, que ganhou o campeonato mundial três vezes antes de morrer tragicamente aos 34 anos de idade."
                            FontSize="Micro" Padding="5" TextColor="White"/>
 
                 </StackLayout>
